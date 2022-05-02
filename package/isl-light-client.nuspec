@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>isl-light-client</id>
+    <version>4.4.2116.116</version>
+    <title>ISL Light Client</title>
+    <authors>ISL Online</authors>
+    <owners>Benaiah Matthew Catherasoo, Open Circle AG</owners>
+    <packageSourceUrl>https://github.com/open-circle-ltd/chocolatey.isl-light-client</packageSourceUrl> 
+    <projectUrl>http://islonline.com</projectUrl>
+    <iconUrl>https://www.islonline.com/static/v7/images/logo-islonline.svg</iconUrl>
+    <copyright>2022 ISL Online</copyright>
+    <projectSourceUrl>https://www.islonline.com/ch/de/downloads/</projectSourceUrl>
+    <docsUrl>https://www.islonline.com/help/</docsUrl>
+    <releaseNotes>https://help.islonline.com/20067</releaseNotes>
+    <licenseUrl>https://lb.islonline.com/documents/legal/isl-online-license-agreement-en.pdf</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+    ## Description
+
+Receive remote desktop support from the help desk operator.
+
+## Package installation defaults
+
+By default, **installation** of this package:
+
+- Will install ISL Light Client with a Shortcut on the Desktop called ISL Light Client
+
+## Package Parameters
+
+- `/InstallDir` - You can pass the Installation Path
+- `/DesktopShortcutName` - You can pass the Name for the Shortcut on The Desktop
+- `/NoDesktopShortcut` - Do not create Desktop Shortcut
+
+## Installation
+
+Installation without parameters.
+
+```ps1
+choco install isl-light-client
+```
+
+Installation with parameters.
+
+```powershell
+choco install isl-light-client --params '/InstallDir:C:\User\USERNAME\Package /DesktopShortcut:Name Support'
+```
+```powershell
+choco install isl-light-client --params '/NoDesktopShortcut'
+```
+
+    </description>
+    <summary>ISL Online</summary>
+    <tags>Support Remote Control Online Meeting Admin ISL Light Client</tags>
+  </metadata>
+  <files>
+    <file src="tools/**" target="tools"/>
+  </files>
+</package>
