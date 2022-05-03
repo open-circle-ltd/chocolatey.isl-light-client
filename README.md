@@ -12,9 +12,7 @@ By default, **installation** of this package:
 
 ## Package Parameters
 
-- `/InstallDir` - You can pass the Installation Path
 - `/DesktopShortcutName` - You can pass the Name for the Shortcut on The Desktop
-- `/NoDesktopShortcut` - Do not create Desktop Shortcut
 
 ## Installation
 
@@ -27,15 +25,8 @@ choco install isl-light-client
 Installation with parameters.
 
 ```powershell
-choco install isl-light-client --params '/InstallDir:C:\User\USERNAME\Package /DesktopShortcut:Name Support'
+choco install isl-light-client --params="/DesktopShortcut:Name Support"
 ```
-```powershell
-choco install isl-light-client --params '/NoDesktopShortcut'
-```
-
-## Note
-
-This Package doesn't use checksums because it changes every time the installer is downloaded.
 
 ## Author
 
