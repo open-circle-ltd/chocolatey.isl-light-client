@@ -16,34 +16,33 @@
     <licenseUrl>https://lb.islonline.com/documents/legal/isl-online-license-agreement-en.pdf</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
-    ## Description
+## Description
 
-    Receive remote desktop support from the help desk operator.
+Receive remote desktop support from the help desk operator.
 
-    ## Package installation defaults
+## Package installation defaults
     
-    By default, **installation** of this package:
+By default, **installation** of this package:
     
-    - Will install ISL Light Client with a Shortcut on the Desktop called ISL Light Client
+- Will install ISL Light Client with a Shortcut on the Desktop called ISL Light Client
     
-    ## Package Parameters
+## Package Parameters
     
-    - `/DesktopShortcutName` - You can pass the Name for the Shortcut on The Desktop
+- `/DesktopShortcutName` - You can pass the Name for the Shortcut on The Desktop
     
-    ## Installation
+## Installation
     
-    Installation without parameters.
+Installation without parameters.
     
-    ```ps1
-    choco install isl-light-client
-    ```
+```ps1
+choco install isl-light-client
+```
     
-    Installation with parameters.
+Installation with parameters.
     
-    ```powershell
-    choco install isl-light-client --params="/DesktopShortcut:Name Support"
-    ```
-
+```powershell
+choco install isl-light-client --params="/DesktopShortcut:Name Support"
+```
     </description>
     <summary>ISL Online</summary>
     <tags>Support Remote Control Online Meeting Admin ISL Light Client</tags>
